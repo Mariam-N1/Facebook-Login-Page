@@ -54,7 +54,17 @@ The mobile version reorganizes the interface for smaller screens while keeping t
 
 ## 📸 Screenshots
 
-Screenshots of the desktop, tablet, and mobile versions will be added here.
+### Desktop
+
+![Desktop View](public/screenshots/Desktop.png)
+
+### Tablet
+
+![Tablet View](public/screenshots/Tablet.png)
+
+### Mobile
+
+![Mobile View](public/screenshots/Mobile.png)
 
 ## 🚀 Running the Project Locally
 
