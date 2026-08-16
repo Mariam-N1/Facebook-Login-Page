@@ -1,59 +1,135 @@
-# FacebookClone
+# Facebook Login Page Clone
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.19.
+A responsive **Facebook-inspired login page** recreated using Angular, HTML, CSS, and TypeScript.
 
-## Development server
+This project focuses on recreating a modern login interface while maintaining responsive behavior across **desktop, tablet, and mobile devices**.
 
-To start a local development server, run:
+## 📖 About the Project
+
+The Facebook Login Page Clone was created as a front-end development project to practice building responsive user interfaces with Angular.
+
+The interface was recreated from scratch by analyzing the original layout and implementing its structure, spacing, typography, forms, buttons, images, and responsive behavior.
+
+The project adapts to different screen sizes to provide an appropriate layout for desktop, tablet, and mobile users.
+
+> **Note:** This project is for educational and portfolio purposes only. It is not affiliated with, endorsed by, or connected to Facebook or Meta.
+
+## ✨ Features
+
+* Responsive Facebook-inspired login interface
+* Desktop, tablet, and mobile layouts
+* Responsive image collage
+* Floating input labels
+* Styled email/phone and password fields
+* Login and account creation buttons
+* Responsive typography and spacing
+* Mobile-friendly navigation and layout
+* Footer with language and navigation links
+* Angular component-based structure
+
+## 🛠️ Technologies Used
+
+* **Angular**
+* **TypeScript**
+* **HTML5**
+* **CSS3**
+* **Angular CLI**
+* **VS Code**
+
+## 📱 Responsive Design
+
+The interface has been designed and tested for multiple screen sizes.
+
+### Desktop
+
+The desktop version uses a two-section layout with visual content on the left and the login interface on the right.
+
+### Tablet
+
+The layout adjusts its sizing, spacing, and positioning to provide a balanced experience on medium-sized screens.
+
+### Mobile
+
+The mobile version reorganizes the interface for smaller screens while keeping the login form accessible and easy to use.
+
+## 📸 Screenshots
+
+Screenshots of the desktop, tablet, and mobile versions will be added here.
+
+## 🚀 Running the Project Locally
+
+To run this project on your computer, first clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Move into the Angular project directory:
+
+```bash
+cd facebook-clone
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Start the Angular development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open your browser and visit:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+The application will automatically reload whenever you modify the source files.
 
-```bash
-ng generate --help
+## 📂 Project Structure
+
+```text
+facebook-clone/
+├── public/
+├── src/
+├── angular.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 ```
 
-## Building
+## 🎯 Project Goals
 
-To build the project run:
+The main goals of this project were to:
 
-```bash
-ng build
-```
+* Strengthen Angular fundamentals
+* Practice responsive web development
+* Improve CSS layout and styling skills
+* Understand desktop, tablet, and mobile breakpoints
+* Recreate a real-world interface from visual references
+* Gain experience structuring a front-end project
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🔮 Future Improvements
 
-## Running unit tests
+* Add additional form validation
+* Improve accessibility
+* Add subtle UI interactions and animations
+* Further optimize the interface for different screen sizes
+* Deploy the project for live viewing
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 👩‍💻 Author
 
-```bash
-ng test
-```
+**Mariam**
 
-## Running end-to-end tests
+Computer Science student and front-end developer exploring Angular, responsive web development, and modern user interface design.
 
-For end-to-end (e2e) testing, run:
+## ⚠️ Disclaimer
 
-```bash
-ng e2e
-```
+This project is an independent educational recreation created solely for learning and portfolio purposes.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Facebook and the Facebook name, branding, and related assets belong to **Meta Platforms, Inc.** This project is not affiliated with or endorsed by Meta.
